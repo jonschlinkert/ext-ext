@@ -1,6 +1,6 @@
 # ext-ext [![NPM version](https://badge.fury.io/js/ext-ext.png)](http://badge.fury.io/js/ext-ext)
 
-> Extension of the node.js extname method.
+> Extension of the node.js path.extname method.
 
 ## Install
 Install with [npm](npmjs.org):

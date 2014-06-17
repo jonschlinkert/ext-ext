@@ -1,6 +1,6 @@
 {
   "name": "ext-ext",
-  "description": "Extension of the node.js extname method.",
+  "description": "Extension of the node.js path.extname method.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/ext-ext",
   "author": {
