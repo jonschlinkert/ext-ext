@@ -1,0 +1,50 @@
+{
+  "name": "ext-ext",
+  "description": "Extension of the node.js extname method.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/ext-ext",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/ext-ext.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/ext-ext/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/ext-ext/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "ext",
+    "extname",
+    "extensions",
+    "extension",
+    "utils",
+    "path",
+    "filepath",
+    "fs",
+    "file"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb": "~0.2.6",
+    "chai": "~1.9.1",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "parse-filepath": "^0.2.1"
+  }
+}
