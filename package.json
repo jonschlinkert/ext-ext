@@ -1,7 +1,7 @@
 {
   "name": "ext-ext",
   "description": "Extension of the node.js path.extname method.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/ext-ext",
   "author": {
     "name": "Jon Schlinkert",
@@ -44,7 +44,7 @@
     "mocha": "*"
   },
   "dependencies": {
-    "lodash": "^2.4.1",
+    "array-last": "^0.1.0",
     "parse-filepath": "^0.2.1"
   }
 }

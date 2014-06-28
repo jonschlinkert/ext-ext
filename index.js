@@ -1,16 +1,16 @@
 /*!
- * map-paths <https://github.com/jonschlinkert/map-paths>
+ * ext-ext <https://github.com/jonschlinkert/ext-ext>
  *
  * Copyright (c) 2014 Jon Schlinkert, contributors.
  * Licensed under the MIT License
  */
+
 'use strict';
 
 
 var path = require('path');
 var parsePath = require('parse-filepath');
-var _ = require('lodash');
-
+var last = require('array-last');
 
 module.exports = function extext(filepath, options) {
   options = options || {};
@@ -25,10 +25,10 @@ module.exports = function extext(filepath, options) {
     result = options.ext;
   } else if (options.extDot) {
     if (options.extDot === 'first') {
-      result = _.first(segments) || ext;
+      result = segments.shift() || ext;
     }
     if (options.extDot === 'last') {
-      result = _.last(segments) || ext;
+      result = last(segments) || ext;
     }
   } else {
     result = ext;
